@@ -1,5 +1,8 @@
 ## Olá! eu sou o Lucas Batista 
 
+### 📢 Sobre mim
+Atualmente, estou cursando o Ensino Médio Integrado em Desenvolvimento de Sistemas na Etec Adolpho Berezin, onde busco constantemente oportunidades para me aprimorar e me desenvolver na área de tecnologia. Tenho um interesse pelas áreas de inteligência artificial (IA) e segurança da informação, e estou sempre em busca de expandir meus conhecimentos e habilidades nessas áreas.
+
 ![Lucas Batista GitHub stats](https://github-readme-stats.vercel.app/api?username=LucasBatista37&show_icons=true&theme=transparent)
 
 ## 🔌 Habilidades e Linguagens
