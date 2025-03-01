@@ -1,7 +1,11 @@
 # Lucas Batista - Desenvolvedor Full Stack 👨‍💻
 
 ## 👤 Sobre mim
-Atualmente, estou cursando o Ensino Médio Integrado em Desenvolvimento de Sistemas na Etec Adolpho Berezin, onde busco constantemente oportunidades para me aprimorar e me desenvolver na área de tecnologia. Tenho um interesse pelas áreas de inteligência artificial (IA) e segurança da informação, e estou sempre em busca de expandir meus conhecimentos e habilidades nessas áreas.
+Desenvolvedor de Sistemas especializado em criar interfaces de usuário no front-end enquanto implemento soluções completas no back-end.
+
+No front-end, trabalho com frameworks como React e Flutter, utilizando meu conhecimento para criar interfaces que melhoram a experiência do usuário.
+
+No back-end, utilizo Node.js para desenvolver APIs, permitindo integração entre diferentes componentes da aplicação. Além disso, tenho experiência em bancos de dados como MySQL, Firebase e MongoDB.
 
 ## 🔌 Habilidades e Linguagens
 ### Front-End
