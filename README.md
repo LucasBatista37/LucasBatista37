@@ -1,11 +1,11 @@
-# Lucas Batista - Desenvolvedor Full Stack 👨‍💻
+# Lucas Batista - Desenvolvedor Mobile e Web 👨‍💻
 
 ## 👤 Sobre mim
-Desenvolvedor de Sistemas especializado em criar interfaces de usuário no front-end enquanto implemento soluções completas no back-end.
+Sou um Desenvolvedor de Sistemas especializado em mobile e web, entregando soluções completas desde a implementação até a postagem em lojas de aplicativos.
 
-No front-end, trabalho com frameworks como React e Flutter, utilizando meu conhecimento para criar interfaces que melhoram a experiência do usuário.
+Atualmente no front end trabalho com tecnologias como React, Flutter e Angular onde planejo desingns e navegação do usuário.
 
-No back-end, utilizo Node.js para desenvolver APIs, permitindo integração entre diferentes componentes da aplicação. Além disso, tenho experiência em bancos de dados como MySQL, Firebase e MongoDB.
+No Backend trabalho com NodeJS onde eu desenvolvo as API que irão ser integradas com outras partes da aplicação. Além de ter experiência em bancos de dados como MongoDB, Firebase e MySQL.
 
 ## 🔌 Habilidades e Linguagens
 ### Front-End
