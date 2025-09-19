@@ -34,6 +34,15 @@ Sou apaixonado por criar **interfaces intuitivas** e **APIs escaláveis**, aplic
 
 ---
 
+## 🎯 Motivação
+
+- Criar **interfaces responsivas e modernas**  
+- Desenvolver **APIs seguras e escaláveis**  
+- Aprender e aplicar **novas tecnologias**  
+- Colaborar em **projetos que impactem pessoas**
+
+---
+
 ## 🚀 Projetos em Destaque
 
 | Projeto | Descrição | Link |
@@ -44,29 +53,10 @@ Sou apaixonado por criar **interfaces intuitivas** e **APIs escaláveis**, aplic
 
 ---
 
-## 🎯 Motivação
-
-- Criar **interfaces responsivas e modernas**  
-- Desenvolver **APIs seguras e escaláveis**  
-- Aprender e aplicar **novas tecnologias**  
-- Colaborar em **projetos que impactem pessoas**
-
----
-
 ## 🌐 Conecte-se comigo
 
 <p align="left">
   <a href="https://www.instagram.com/lucas_batista38/"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
   <a href="mailto:lucas.batista9734@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
   <a href="https://www.linkedin.com/in/lucas-batista-004212263/"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-</p>
-
----
-
-## ✨ Conquistas
-
-<p align="left">
-  <img src="https://img.shields.io/badge/-Top%20Languages-blue?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-Open%20Source-green?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-Contributions-orange?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
