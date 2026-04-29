@@ -107,7 +107,7 @@ Sou apaixonado por criar **interfaces intuitivas e responsivas** no front-end, c
 <table>
 <tr>
 <td width="50%">
-<h4>🏆 Ciclou - Mais de 10K Downloads</h4>
+<h4>🏆 Ciclou</h4>
 <p><strong>Rating:</strong> ⭐⭐⭐⭐☆ 4.8</p>
 <p>App de coleta sustentável de óleo com grande adoção</p>
 <p><strong>Stack:</strong> Flutter • Firebase</p>
