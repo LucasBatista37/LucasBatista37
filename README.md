@@ -30,7 +30,7 @@
 
 ### 🐍 Contribuições Animadas
 
-![Snake animation](https://github.com/LucasBatista37/LucasBatista37/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/LucasBatista37/LucasBatista37/main/dist/github-contribution-grid-snake.svg)
 
 ---
 
