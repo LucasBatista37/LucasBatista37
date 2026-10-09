@@ -1,0 +1,14 @@
+{
+  "name": "profile-assets",
+  "private": true,
+  "description": "Gera os SVGs e imagens do README do perfil (hero, cards, stack, botões).",
+  "scripts": {
+    "icons": "node export-icons.mjs",
+    "build": "bash build.sh"
+  },
+  "devDependencies": {
+    "@fontsource/jetbrains-mono": "5.3.0",
+    "@fontsource/space-grotesk": "5.3.0",
+    "simple-icons": "16.34.0"
+  }
+}

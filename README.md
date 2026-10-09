@@ -1,316 +1,175 @@
-# 👋 Olá, eu sou Lucas Batista
+<a href="https://www.lucasbatista.com">
+  <picture>
+    <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/branding/hero-mobile-dark.svg">
+    <source media="(max-width: 640px)" srcset="assets/branding/hero-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/branding/hero-dark.svg">
+    <img src="assets/branding/hero-light.svg" width="100%" alt="Lucas Batista — Full Stack &amp; Mobile Developer, fundador da CupCakeLabs. Desenvolve o Vendaí, o Petzara, o Trativa, o QRPronto e o Nexo OS.">
+  </picture>
+</a>
 
-```
-╔════════════════════════════════════════════════════════════════╗
-║    Full Stack Developer | Web & Mobile Solutions Creator      ║
-║         Transforming Ideas into Reality with Code             ║
-╚════════════════════════════════════════════════════════════════╝
-```
+<p align="center">
+  <a href="https://www.lucasbatista.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/btn-portfolio-dark.svg"><img src="assets/buttons/btn-portfolio-light.svg" height="40" alt="Portfólio — lucasbatista.com"></picture></a>
+  <a href="https://www.cupcakelabs.com.br"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/btn-cupcakelabs-dark.svg"><img src="assets/buttons/btn-cupcakelabs-light.svg" height="40" alt="CupCakeLabs — cupcakelabs.com.br"></picture></a>
+  <a href="https://www.linkedin.com/in/lucaspbatista/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/btn-linkedin-dark.svg"><img src="assets/buttons/btn-linkedin-light.svg" height="40" alt="LinkedIn de Lucas Batista"></picture></a>
+  <a href="#contato"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/btn-contato-dark.svg"><img src="assets/buttons/btn-contato-light.svg" height="40" alt="Ir para a seção de contato"></picture></a>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-batista-004212263/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LucasBatista37)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucas.batista9734@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/lucas_batista38/)
-[![Portfolio](https://img.shields.io/badge/Portfólio-4A90E2?style=for-the-badge&logo=web&logoColor=white)](https://portifolio-lucas-batista.vercel.app/)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5513996830085)
+<p align="center">
+  <a href="#sobre">Sobre</a> ·
+  <a href="#projetos-em-destaque">Projetos</a> ·
+  <a href="#para-clientes">Clientes</a> ·
+  <a href="#stack">Stack</a> ·
+  <a href="#atividade">Atividade</a> ·
+  <a href="#contato">Contato</a>
+</p>
 
----
+## Sobre
 
-### 📊 Estatísticas do GitHub
+Sou desenvolvedor full stack e mobile e fundador da [CupCakeLabs](https://www.cupcakelabs.com.br). Construo produtos inteiros: da modelagem do banco e da API à interface web, ao app na loja e ao instalador desktop — e continuo cuidando deles em produção, com deploy, cobrança, atualização e suporte.
 
-<div align="center">
+Hoje mantenho meus próprios produtos (**Vendaí**, **Petzara**, **Trativa** e **QRPronto**), desenvolvo sistemas sob medida para clientes e, como projeto de estudo, escrevo um sistema operacional em Rust.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=LucasBatista37&show_icons=true&theme=radical&hide_border=true)
+- **Web:** React, Next.js e TypeScript, com foco em interfaces claras e rápidas.
+- **Mobile e desktop:** Flutter, Electron e PWA, incluindo operação offline-first e integração com impressora térmica e balança.
+- **Back-end:** Node.js (Express e NestJS), PostgreSQL e MongoDB, multiempresa e tempo real.
+- **Integrações:** Stripe, PIX, WhatsApp Cloud API, frete e Meta Pixel.
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LucasBatista37&layout=compact&theme=radical&hide_border=true)
+<details>
+<summary><b>English summary</b></summary>
+<br>
 
-</div>
-
----
-
-### 🐍 Contribuições Animadas
-
-![Snake animation](https://raw.githubusercontent.com/LucasBatista37/LucasBatista37/main/dist/github-contribution-grid-snake.svg)
-
----
-
-### 📈 Atividade
-
-<div align="center">
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=LucasBatista37&theme=radical&hide_border=true)
-
-</div>
-
----
-
-## 💻 Sobre Mim
-
-Sou apaixonado por criar **interfaces intuitivas e responsivas** no front-end, combinado com **APIs escaláveis e seguras** no back-end. Com experiência em desenvolvimento web e mobile, transformo ideias em soluções tecnológicas reais que agregam valor.
-
-<details open>
-<summary><b>🎯 O que faço (Clique para expandir/recolher)</b></summary>
-
-- 🎨 **Front-End:** Desenvolvimento de interfaces modernas com React, Flutter e Angular
-- ⚙️ **Back-End:** Criação de APIs robustas com Node.js e integrações de banco de dados
-- 📱 **Mobile:** Apps nativos e cross-platform com Flutter
-- 🔧 **DevOps:** Ferramentas como Git, Docker e deploy em produção
-- 🧪 **Testing:** Testes unitários e integração (Jest, React Testing Library)
-- 📈 **Performance:** Otimização de aplicações e análise de performance
-- 🎨 **UI/UX:** Design responsivo e experiência do usuário
+Full stack & mobile developer from Brazil and founder of [CupCakeLabs](https://www.cupcakelabs.com.br). I build complete products — database, API, web app, mobile app and desktop installer — and keep running them in production. I maintain my own SaaS products (Vendaí, Petzara, Trativa, QRPronto), build custom software for clients and, as a study project, write an operating system in Rust ([Nexo OS](https://github.com/LucasBatista37/nexo-os)). Full case studies (in Portuguese) at [lucasbatista.com](https://www.lucasbatista.com/projects).
 
 </details>
 
----
-
-## 🛠 Stack Tecnológico
-
-### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34C26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-
-### Backend & Database
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=flat&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat&logo=mysql&logoColor=white)
+## Projetos em destaque
 
-### Ferramentas
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078D4?style=flat&logo=visual-studio-code&logoColor=white)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-
----
+Produtos que desenvolvi de ponta a ponta. Clique em um card para abrir o case completo, com vídeos do sistema funcionando.
 
-## 🎯 Motivação
+<p align="center">
+  <a href="https://www.lucasbatista.com/projects/vendai"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/vendai-dark.webp"><img src="assets/projects/vendai-light.webp" width="49%" alt="Vendaí — PDV offline-first. Captura real da tela de contas a pagar do sistema."></picture></a>
+  <a href="https://www.lucasbatista.com/projects/petzara"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/petzara-dark.webp"><img src="assets/projects/petzara-light.webp" width="49%" alt="Petzara — gestão para petshops. Captura real do painel inicial com agendamentos."></picture></a>
+  <a href="https://www.lucasbatista.com/projects/trativa"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/trativa-dark.webp"><img src="assets/projects/trativa-light.webp" width="49%" alt="Trativa — CRM de leads. Captura real do funil de vendas."></picture></a>
+  <a href="https://www.lucasbatista.com/projects/qrpronto"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/qrpronto-dark.webp"><img src="assets/projects/qrpronto-light.webp" width="49%" alt="QRPronto — gerador de QR Code. Captura real do editor com logo central."></picture></a>
+  <a href="https://www.lucasbatista.com/projects/ciclou"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/ciclou-dark.webp"><img src="assets/projects/ciclou-light.webp" width="49%" alt="Ciclou — app Android de coleta de óleo. Capturas da listagem na Google Play."></picture></a>
+  <a href="https://github.com/LucasBatista37/nexo-os"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/nexo-os-dark.webp"><img src="assets/projects/nexo-os-light.webp" width="49%" alt="Nexo OS — sistema operacional em Rust. Capa ilustrativa com as camadas descritas no README do projeto."></picture></a>
+</p>
 
-- ✅ Criar interfaces responsivas, modernas e acessíveis
-- ✅ Desenvolver APIs seguras, escaláveis e bem documentadas
-- ✅ Aprender e aplicar novas tecnologias em projetos reais
-- ✅ Colaborar em projetos que geram impacto para pessoas e negócios
-- ✅ Contribuir para comunidades open-source
+**[Vendaí](https://usevendai.com.br)** · produto próprio, em produção<br>
+PDV para pequenos comércios que funciona sem internet: leitor de código de barras, caixa, estoque, fiado, contas a pagar, PIX e relatórios, com sincronização para a nuvem e app de gestão no celular.<br>
+<sub>Electron · React · SQLite · Node.js · PostgreSQL · Flutter — [case](https://www.lucasbatista.com/projects/vendai) · [downloads](https://github.com/LucasBatista37/vendai-releases)</sub>
 
----
+**[Petzara](https://petzara.app)** · produto próprio, em produção<br>
+Gestão para petshops de banho e tosa: agenda com status em tempo real, clientes e pets, financeiro, equipe, link público de agendamento e assinatura via Stripe. Instalável como PWA.<br>
+<sub>React · Node.js · Express · MongoDB · Socket.io · Stripe — [case](https://www.lucasbatista.com/projects/petzara) · [app desktop](https://github.com/LucasBatista37/petzara-desktop)</sub>
 
-## 🎁 Vamos Explorar Meus Projetos?
+**[Trativa](https://trativa.app)** · produto próprio, em beta<br>
+CRM multiempresa para equipes comerciais: pipeline kanban, WhatsApp Cloud API dentro da ficha do lead, campos personalizados, metas, relatórios de funil e app desktop.<br>
+<sub>React · Vite · Node.js · MongoDB · Socket.IO · Electron — [case](https://www.lucasbatista.com/projects/trativa) · [landing page](https://github.com/LucasBatista37/trativa-landing-page) · [app desktop](https://github.com/LucasBatista37/trativa-desktop)</sub>
 
-### 🌟 Top Projetos (Maior Impacto)
+**[QRPronto](https://qrpronto.com)** · produto próprio, em produção<br>
+Dois produtos em um: gerador de QR Code com 17 tipos que roda inteiro no navegador, sem cadastro, e um painel de QR dinâmico em que o destino do código impresso pode ser trocado, com campanhas, webhooks e API.<br>
+<sub>React · TypeScript · NestJS · Prisma — [case](https://www.lucasbatista.com/projects/qrpronto)</sub>
 
-<table>
-<tr>
-<td width="50%">
-<h4>🏆 Ciclou</h4>
-<p><strong>Rating:</strong> ⭐⭐⭐⭐☆ 4.8</p>
-<p>App de coleta sustentável de óleo com grande adoção</p>
-<p><strong>Stack:</strong> Flutter • Firebase</p>
-<p><a href="https://play.google.com/store/apps/details?id=com.beyondsystem.ciclou_novo_app">📱 Play Store</a> • <a href="https://github.com/LucasBatista37/Ciclou-App">💻 GitHub</a></p>
-</td>
-<td width="50%">
-<h4>🏥 PetCare</h4>
-<p><strong>Status:</strong> ✅ Em Produção</p>
-<p>Sistema completo de agendamento para pet shops</p>
-<p><strong>Stack:</strong> React • Node.js • MongoDB</p>
-<p><a href="https://www.petcarezone.shop/">🌐 Acessar</a> • <a href="https://github.com/LucasBatista37/PetShop-Agendamento-Sistema">💻 GitHub</a></p>
-</td>
-</tr>
-</table>
+**[Ciclou](https://www.ciclou.app)** · parceria, publicado na Google Play<br>
+App que liga quem descarta óleo de cozinha a coletores: o gerador pede a coleta, coletores enviam propostas, a taxa é paga via PIX e o app emite o certificado de destinação. Fiz a interface Flutter, os fluxos de usuário e a integração com Firebase, em parceria com Rafael Almeida (back-end e design).<br>
+<sub>Flutter · Dart · Firebase — [Google Play](https://play.google.com/store/apps/details?id=com.beyondsystem.ciclou_novo_app) · [case](https://www.lucasbatista.com/projects/ciclou)</sub>
 
----
+**[Nexo OS](https://github.com/LucasBatista37/nexo-os)** · open source, em desenvolvimento<br>
+Sistema operacional escrito do zero em Rust estável: loader UEFI próprio, kernel x86_64 com SMP e escalonador preemptivo, processos em modo usuário com IPC por canais, drivers VirtIO isolados e sistema de arquivos próprio, com cenários de teste em QEMU no CI.<br>
+<sub>Rust · x86_64 · UEFI · QEMU — [repositório](https://github.com/LucasBatista37/nexo-os) · [roadmap](https://github.com/LucasBatista37/nexo-os/blob/main/docs/ROADMAP_STATUS.md)</sub>
 
-### 📱 Projetos Mobile
+<details>
+<summary><b>Ver os produtos em ação</b> (prévias animadas, ~700 KB)</summary>
+<br>
 
-| Projeto | Descrição | Stack | Links |
-|---------|-----------|-------|-------|
-| **Ciclou** 🏆 | App de coleta sustentável de óleo | Flutter, Firebase | [Play Store](https://play.google.com/store/apps/details?id=com.beyondsystem.ciclou_novo_app) • [GitHub](https://github.com/LucasBatista37/Ciclou-App) |
-| **CondoView** | Sistema de gerenciamento de condomínios | Flutter, Node.js, MongoDB | [Demo](https://youtu.be/E2fc69-hLe4) • [GitHub](https://github.com/LucasBatista37/Condoview-App) |
+Trechos dos vídeos publicados nos cases, com dados de demonstração.
 
-### 🌐 Projetos Web - E-commerce & Serviços
+<p align="center">
+  <img src="assets/previews/vendai.webp" width="49%" alt="Vendaí: venda registrada no PDV, com itens, pagamento e confirmação de venda concluída.">
+  <img src="assets/previews/petzara.webp" width="49%" alt="Petzara: criação de um agendamento em etapas — pet, serviços e data.">
+  <img src="assets/previews/trativa.webp" width="49%" alt="Trativa: lead movido entre etapas do pipeline kanban e ficha do lead aberta.">
+  <img src="assets/previews/qrpronto.webp" width="49%" alt="QRPronto: QR Code criado do zero, com cores, estilo dos pontos e logo central.">
+  <img src="assets/previews/ciclou.webp" width="49%" alt="Ciclou: solicitação de coleta pelo gerador e envio de proposta pelo coletor, lado a lado.">
+</p>
 
-| Projeto | Descrição | Stack | Links |
-|---------|-----------|-------|-------|
-| **PetCare** 🌟 | Sistema de agendamento para Pet Shops | React, Tailwind, Node.js, MongoDB | [Acessar](https://www.petcarezone.shop/) • [GitHub](https://github.com/LucasBatista37/PetShop-Agendamento-Sistema) |
-| **Pet Litoral** | Loja online para produtos Pet | React | [Acessar](https://petlitoral.shop/) • [GitHub](https://github.com/LucasBatista37/Pet-Litoral-Page) |
-| **Gesso Grande Rocha** | Site profissional para construtora | React, Tailwind | [Acessar](https://www.gessogranderocha.com.br/) • [GitHub](https://github.com/LucasBatista37/GessoGrandeRocha) |
-| **Mais Clean** | Site para serviços de limpeza | WordPress, Elementor | [Acessar](https://maiscleanhigienizacao.com.br/persianas) |
+</details>
 
-### 💼 Projetos Web - Empresariais & Portfólio
+## Para clientes
 
-| Projeto | Descrição | Stack | Links |
-|---------|-----------|-------|-------|
-| **Beyond** | Site freelancer - Beyond System | React, Tailwind | [Acessar](https://beyondsystem.online/) • [GitHub](https://github.com/LucasBatista37/Beyond-Site) |
-| **Portfólio Pessoal** | Meu portfólio profissional | React, Tailwind | [Acessar](https://portifolio-lucas-batista.vercel.app/) |
+Sistemas e sites sob medida, desenvolvidos para empresas.
 
-### 📚 Projetos Educacionais & Portfólio
+<p align="center">
+  <a href="https://www.lucasbatista.com/projects/eacentral"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/client-eacentral-dark.webp"><img src="assets/projects/client-eacentral-light.webp" width="32%" alt="EA Central — e-commerce B2B. Captura real da vitrine."></picture></a>
+  <a href="https://www.lucasbatista.com/projects/mais-clean"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/client-maisclean-dark.webp"><img src="assets/projects/client-maisclean-light.webp" width="32%" alt="Mais Clean Higienização — site institucional. Captura real da página inicial."></picture></a>
+  <a href="https://www.lucasbatista.com/projects/gesso-grande-rocha"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/projects/client-gesso-dark.webp"><img src="assets/projects/client-gesso-light.webp" width="32%" alt="Gesso Grande Rocha — site institucional. Captura real da página inicial."></picture></a>
+</p>
 
-| Projeto | Descrição | Stack | Links |
-|---------|-----------|-------|-------|
-| **ReactGram** | Rede social estilo Instagram | React, Node.js, MongoDB | [Demo](https://github.com/LucasBatista37/ReactGram/wiki/Prints-do-Projeto) • [GitHub](https://github.com/LucasBatista37/ReactGram) |
-| **MiniBlog** | Plataforma de blog simples | React, Firebase | [Demo](https://github.com/LucasBatista37/Miniblog/wiki/Prints-do-Projeto) • [GitHub](https://github.com/LucasBatista37/Miniblog) |
-| **Central Filmes** | Buscador de informações de filmes | React, REST API | [Acessar](https://centralfilmes.vercel.app/) • [GitHub](https://github.com/LucasBatista37/Central-Filmes) |
-| **Tarefa Rápida** | Gerenciador de tarefas | TypeScript, React | [Acessar](https://itask-typescript.vercel.app/) • [GitHub](https://github.com/LucasBatista37/Task_Typescript) |
+- **[EA Central](https://eacentral.com.br)** — e-commerce de atacado com preço progressivo, filtro por aparelho e pedido pelo WhatsApp; vitrine React, painel administrativo e API Node/PostgreSQL. <sub>[case](https://www.lucasbatista.com/projects/eacentral)</sub>
+- **[Mais Clean Higienização](https://www.maiscleanhigienizacao.com.br)** — site em Next.js com uma página por serviço, SEO local, vídeos do processo e PWA. <sub>[case](https://www.lucasbatista.com/projects/mais-clean)</sub>
+- **[Gesso Grande Rocha](https://www.gessogranderocha.com.br)** — site em React com páginas por cidade, SEO local e avaliações do Google. <sub>[case](https://www.lucasbatista.com/projects/gesso-grande-rocha) · [código](https://github.com/LucasBatista37/GessoGrandeRocha)</sub>
+- **Em andamento pela CupCakeLabs:** [Ecogn](https://www.cupcakelabs.com.br/projetos/ecogn), plataforma de gestão ambiental, recursos hídricos e SST levada de protótipo a produção, e [NorteOS](https://www.cupcakelabs.com.br/projetos/norteos), continuidade técnica de um sistema de gestão médica e hospitalar em produção.
 
----
+## Stack
 
-## � Linguagens Mais Utilizadas
+<picture>
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="assets/sections/stack-mobile-dark.svg">
+  <source media="(max-width: 640px)" srcset="assets/sections/stack-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/sections/stack-dark.svg">
+  <img src="assets/sections/stack-light.svg" width="100%" alt="Stack. Uso diário — front-end: React, TypeScript, JavaScript, Next.js, Vite, Tailwind CSS; mobile e desktop: Flutter, Dart, Electron; back-end: Node.js, Express, NestJS, Socket.io; dados: PostgreSQL, MongoDB, Prisma, SQLite, Firebase; produto e infra: Stripe, WhatsApp Cloud API, Vercel, Railway, GitHub Actions, Git; sistemas: Rust. Já usei em estudos: Vue.js, Angular, Python, PHP, Kotlin.">
+</picture>
 
-<div align="center">
+<details>
+<summary><b>Outros projetos</b> — estudos, trabalhos acadêmicos e sites anteriores</summary>
+<br>
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
+**Acadêmico, em equipe**
+- [Condoview](https://www.lucasbatista.com/projects/condoview) — app de condomínio em Flutter feito como TCC por uma equipe de 5: reservas, ocorrências, avisos e convite de visitante com QR Code. <sub>[app](https://github.com/LucasBatista37/Condoview-App) · [back-end](https://github.com/LucasBatista37/Backend-Condoview) · [vídeo](https://www.youtube.com/watch?v=E2fc69-hLe4)</sub>
 
-</div>
+**Estudos de front-end e full stack**
+- [ReactGram](https://github.com/LucasBatista37/ReactGram) — rede social inspirada no Instagram, com autenticação JWT e upload de imagens (React, Node.js, MongoDB).
+- [Miniblog](https://github.com/LucasBatista37/Miniblog) — blog com autenticação e CRUD de posts (React, Firebase).
+- [Central Filmes](https://github.com/LucasBatista37/Central-Filmes) — catálogo e busca de filmes com a API do TMDB (React, Vite). <sub>[demo](https://centralfilmes.vercel.app)</sub>
+- [Tarefa Rápida](https://github.com/LucasBatista37/Task_Typescript) — lista de tarefas em React com TypeScript. <sub>[demo](https://itask-typescript.vercel.app)</sub>
+- [Angular Blog](https://github.com/LucasBatista37/Angular-Blog) — blog em Angular.
 
----
+**Fundamentos de IA**
+- [Perceptron](https://github.com/LucasBatista37/Perceptron-Python) e [rede neural multicamada](https://github.com/LucasBatista37/Rede-Neural-Multicamada) implementados do zero em Python.
 
-Confira meus projetos em desenvolvimento e produção através dos links acima. Cada projeto foi desenvolvido com foco em qualidade e melhor experiência do usuário.
+**Sites anteriores**
+- [Pet Litoral](https://github.com/LucasBatista37/Pet-Litoral-Page) e [Beyond](https://github.com/LucasBatista37/Beyond-Site) — sites em React; os domínios não estão mais no ar, o código continua público.
 
----
+Lista completa em [repositórios](https://github.com/LucasBatista37?tab=repositories).
 
-## 🚀 Acesso Rápido
+</details>
 
-<div align="center">
+## Atividade
 
-| Link | Descrição |
-|------|-----------|
-| [🌐 Portfólio](https://portifolio-lucas-batista.vercel.app/) | Veja todos os meus projetos |
-| [💼 Beyond](https://beyondsystem.online/) | Portfolio empresarial |
-| [📥 Baixar CV](https://portifolio-lucas-batista.vercel.app/assets/LucasCV-DEVpztIG.pdf) | Meu currículo em PDF |
-| [🎮 Experimente](https://petcarezone.shop/) | Veja PetCare em ação |
+<picture>
+  <source media="(max-width: 640px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucasBatista37/LucasBatista37/output/activity-mobile-dark.svg">
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/LucasBatista37/LucasBatista37/output/activity-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucasBatista37/LucasBatista37/output/activity-dark.svg">
+  <img src="https://raw.githubusercontent.com/LucasBatista37/LucasBatista37/output/activity-light.svg" width="100%" alt="Atividade no GitHub nos últimos 12 meses: total de contribuições, sequência atual de dias, dias com atividade e contribuições por semana. Atualizado diariamente.">
+</picture>
 
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LucasBatista37/LucasBatista37/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/LucasBatista37/LucasBatista37/output/snake-light.svg" width="100%" alt="Animação de uma cobra percorrendo o gráfico de contribuições do último ano.">
+</picture>
 
----
+<sub>Gerados diariamente por GitHub Actions a partir do calendário público de contribuições (o mesmo do perfil, que já soma as contribuições privadas exibidas nele). A maior parte do código dos produtos é privada, então a contagem de linguagens dos repositórios públicos não representa a stack real.</sub>
 
-## 🌐 Conecte-se Comigo
+## Contato
 
-Estou sempre aberto para novas oportunidades, parcerias e conversas sobre tecnologia!
+Tem um sistema, um app ou um SaaS para tirar do papel ou evoluir? Me conte o problema: respondo com perguntas, uma proposta de escopo por fases e prazo.
 
-### 📞 Contato Direto
-- **📧 Email:** [lucas.batista9734@gmail.com](mailto:lucas.batista9734@gmail.com)
-- **💬 WhatsApp:** [(13) 99683-0085](https://wa.me/5513996830085?text=Olá,%20gostaria%20de%20falar%20com%20você!)
-- **🤝 LinkedIn:** [Lucas Batista](https://www.linkedin.com/in/lucas-batista-004212263/)
-- **📸 Instagram:** [@lucas_batista38](https://www.instagram.com/lucas_batista38/)
+<p>
+  <a href="https://wa.me/5513996830085?text=Ol%C3%A1%2C%20Lucas!%20Vi%20seu%20GitHub%20e%20quero%20conversar%20sobre%20um%20projeto."><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/btn-whatsapp-dark.svg"><img src="assets/buttons/btn-whatsapp-light.svg" height="40" alt="Conversar no WhatsApp: +55 13 99683-0085"></picture></a>
+  <a href="mailto:lucas.batista9734@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/buttons/btn-email-dark.svg"><img src="assets/buttons/btn-email-light.svg" height="40" alt="E-mail: lucas.batista9734@gmail.com"></picture></a>
+</p>
 
-### 📄 Documentos
-- [📥 Baixar CV](https://portifolio-lucas-batista.vercel.app/assets/LucasCV-DEVpztIG.pdf)
-- [🌐 Visitar Portfólio](https://portifolio-lucas-batista.vercel.app/)
+<sub>lucas.batista9734@gmail.com · +55 13 99683-0085 · [linkedin.com/in/lucaspbatista](https://www.linkedin.com/in/lucaspbatista/) · [lucasbatista.com](https://www.lucasbatista.com)</sub>
 
----
+<br>
 
-## 💡 Disponível Para
-
-- 🎨 Projetos full-stack (Web e Mobile)
-- 🚀 Startups e MVPs
-- 💼 Consultorias técnicas
-- 👥 Colaborações open-source
-- 🎓 Mentorias e palestras
-
----
-
-## 🎓 Meu Método de Trabalho
-
-```
-📋 Planejamento
-     ↓
-🎨 Design & Prototipagem
-     ↓
-💻 Desenvolvimento
-     ↓
-🧪 Testes & QA
-     ↓
-🚀 Deploy & Monitoramento
-     ↓
-📊 Análise & Otimização
-```
-
----
-
-## 🤝 Vamos Colaborar?
-
-Se você está procurando por um desenvolvedor que:
-- ✅ Transforma ideias em código de qualidade
-- ✅ Mantém comunicação clara e próxima
-- ✅ Entrega no prazo com excelência
-- ✅ Sempre aprende e se atualiza
-
-**Então vamos conversar!** 👇
-
----
-
-## 📞 Formas de Contato
-
-<div align="center">
-
-### Escolha seu canal preferido:
-
-[![Email](https://img.shields.io/badge/📧%20Email-lucas.batista9734@gmail.com-D14836?style=for-the-badge)](mailto:lucas.batista9734@gmail.com)
-
-[![WhatsApp](https://img.shields.io/badge/💬%20WhatsApp-%2B55%2013%2099683--0085-25D366?style=for-the-badge)](https://wa.me/5513996830085?text=Olá%20Lucas,%20gostaria%20de%20conversar%20sobre%20um%20projeto!)
-
-[![LinkedIn](https://img.shields.io/badge/🤝%20LinkedIn-Lucas%20Batista-0077B5?style=for-the-badge)](https://www.linkedin.com/in/lucas-batista-004212263/)
-
-[![Instagram](https://img.shields.io/badge/📸%20Instagram-@lucas_batista38-E4405F?style=for-the-badge)](https://www.instagram.com/lucas_batista38/)
-
-</div>
-
----
-
-##  Obrigado por Visitar!
-
-Se você chegou até aqui, muito obrigado! 🙏
-
-> "O melhor código é aquele que resolve um problema real e melhora a vida das pessoas."
-
-<div align="center">
-
-### 🎯 Vamos criar algo incrível juntos? 🚀
-
-**[Clique aqui e envie uma mensagem!](https://wa.me/5513996830085?text=Olá%20Lucas,%20gostaria%20de%20conversar%20sobre%20um%20projeto!)**
-
----
-
-### 🔗 Links Importantes
-
-[**Portfólio**](https://portifolio-lucas-batista.vercel.app/) • 
-[**Beyond**](https://beyondsystem.online/) • 
-[**GitHub**](https://github.com/LucasBatista37) • 
-[**LinkedIn**](https://www.linkedin.com/in/lucas-batista-004212263/) • 
-[**Download CV**](https://portifolio-lucas-batista.vercel.app/assets/LucasCV-DEVpztIG.pdf)
-
----
-
-### 🌟 Siga-me para mais atualizações!
-
-[![GitHub Follow Button](https://img.shields.io/github/followers/LucasBatista37?style=social&label=Follow&maxAge=2592000)](https://github.com/LucasBatista37)
-
----
-
-**Desenvolvido com ❤️ por Lucas Batista**
-
-[![Linkedin](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-batista-004212263/)
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LucasBatista37)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucas.batista9734@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/lucas_batista38/)
-
-</div>
-
----
-
-<div align="center">
-
-**© 2024-2025 Lucas Batista | Todos os direitos reservados**
-
-*Última atualização: Abril de 2026* ✨
-
-</div>
+<p align="center"><sub>Feito com Markdown, SVG e GitHub Actions · sem rastreadores · os assets e a verificação de links ficam neste repositório</sub></p>

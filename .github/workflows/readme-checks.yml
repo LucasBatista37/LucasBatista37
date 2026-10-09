@@ -1,0 +1,46 @@
+name: README checks
+
+# Valida o README: imagens locais, alt text, SVGs e links externos (lychee).
+# Roda em PRs, quando o README muda e uma vez por semana (avisa quando um link quebra).
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "assets/**"
+      - ".lychee.toml"
+      - ".github/workflows/readme-checks.yml"
+      - ".github/scripts/check-readme.py"
+  schedule:
+    - cron: "41 9 * * 1" # segundas-feiras
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Imagens locais, alt text e SVGs
+        run: python3 .github/scripts/check-readme.py README.md
+
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Links externos
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: --config .lychee.toml --no-progress README.md
+          fail: true
+          jobSummary: true
+          token: ${{ github.token }}
