@@ -1,0 +1,73 @@
+name: Profile assets
+
+# Gera a animação de contribuições (snake) e o card de atividade e publica os
+# SVGs no branch `output` (force-push de um único commit), para não poluir o
+# histórico da `main`. O README referencia os arquivos desse branch.
+on:
+  schedule:
+    - cron: "17 6 * * *" # uma vez por dia (03:17 em Brasília)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-assets.yml"
+      - ".github/scripts/activity-card.mjs"
+      - ".github/scripts/fonts/**"
+
+permissions: {}
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write # apenas para publicar no branch `output`
+    env:
+      OWNER: ${{ github.repository_owner }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Snake (contribuições)
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#5B32E0&color_dots=#EBEDF5,#C9C0FF,#9B85FF,#6E4BF2,#4A26C9
+            dist/snake-dark.svg?palette=github-dark&color_snake=#2EE6F6&color_dots=#161B22,#2B2370,#4B37B0,#7A5CF0,#B8A6FF
+
+      - name: Card de atividade
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node .github/scripts/activity-card.mjs --user "$OWNER" --out dist
+
+      - name: Validar SVGs gerados
+        run: |
+          set -euo pipefail
+          for f in snake-light snake-dark activity-dark activity-light activity-mobile-dark activity-mobile-light; do
+            file="dist/$f.svg"
+            test -s "$file" || { echo "::error::$file ausente ou vazio"; exit 1; }
+            python3 -c "import sys,xml.etree.ElementTree as E; r=E.parse(sys.argv[1]).getroot(); assert r.tag.endswith('svg')" "$file"
+            size=$(stat -c%s "$file")
+            [ "$size" -lt 1500000 ] || { echo "::error::$file muito grande ($size bytes)"; exit 1; }
+          done
+          ls -la dist
+
+      # Só publica se tudo acima passou: em caso de falha da API, o README
+      # continua mostrando a última versão válida do branch `output`.
+      - name: Publicar no branch output
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          jekyll: false
+          commit_message: "chore: atualizar assets do perfil"
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
