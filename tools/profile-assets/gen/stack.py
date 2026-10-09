@@ -42,13 +42,11 @@ def build(theme, layout):
     gap = 10 if wide else 12
     texts = ""
     body = []
-    y = pad + 34
-    title = "Stack"
-    body.append(f'<text x="{pad}" y="{y}" class="sans" font-size="{30 if wide else 38}" font-weight="700" fill="{p["text"]}">{title}</text>')
-    legend = "● uso diário   ○ estudos e projetos pontuais"
-    body.append(f'<text x="{W - pad}" y="{y}" class="mono" text-anchor="end" font-size="{14 if wide else 18}" fill="{p["faint"]}">{"uso diário · estudos" if not wide else legend}</text>')
-    texts += title + legend + "uso diário · estudos"
-    y += 34 if wide else 40
+    y = pad + 18
+    title = "tecnologias que sustentam meus produtos em produção"
+    body.append(f'<text x="{pad}" y="{y}" class="mono" font-size="{15 if wide else 19}" fill="{p["faint"]}">{"// " + title}</text>')
+    texts += "// " + title
+    y += 22 if wide else 30
     for name, slugs, core in GROUPS:
         texts += name
         if wide:
@@ -87,8 +85,7 @@ def build(theme, layout):
             x += w + gap
         y = row_y + chip_h + (gap + 8 if wide else 22)
     H = int(y + pad - 10)
-    css_fonts = font_face_css({("Space Grotesk", 500): texts, ("Space Grotesk", 700): title,
-                               ("JetBrains Mono", 500): texts})
+    css_fonts = font_face_css({("Space Grotesk", 500): texts, ("JetBrains Mono", 500): texts})
     names = ", ".join(LABELS.get(s, ICONS[s]["t"]) for g in GROUPS if g[2] for s in g[1])
     extra = ", ".join(ICONS[s]["t"] for g in GROUPS if not g[2] for s in g[1])
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t d">
